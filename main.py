@@ -22,6 +22,7 @@ authenticator = stauth.Authenticate(
     config['preauthorized']
 )
 
+# intiate the login wigdet
 name, authentication_status, username = authenticator.login('Login', 'main')
 
 # authenticating the user
